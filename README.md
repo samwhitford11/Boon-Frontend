@@ -46,21 +46,20 @@ Outlet -- "/places/delete/:id" --> deleteAction
 
 ### Schema
 
-<img src="" width="600px">
+<img src="https://i.imgur.com/9PSt2mi.png" width="300px">
 
 ### Wireframes/Mockups
 
 #### Index Page - Desktop and mobile
 
-<img src="" width="600px">
-<img src="" width="600px">
-<img src="" width="300px">
+<img src="https://i.imgur.com/asebM8O.png" width="400px">
+<img src="https://i.imgur.com/Kt930s3.png" width="400px">
 
 #### Show Page - Desktop and mobile
 
-<img src="" width="600px">
-<img src="" width="600px">
-<img src="" width="300px">
+<img src="https://i.imgur.com/V9daAKs.png" width="400px">
+<img src="https://i.imgur.com/avtZ8T6.png" width="400px">
+
 
 ### Weekly Plan
 
