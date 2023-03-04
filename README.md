@@ -1,29 +1,79 @@
-# boon-frontend
+# bOOn
 
-This template should help get you started developing with Vue 3 in Vite.
+##### This app lets users keep track of gift ideas and share personal gift ideas with others. Users will be able to add a person they wish to make a gift registry. Users will be able to see the list of gift ideas per person. they will visit, click on one and view an individual destination, delete and update that destination as well as check it off as visited.
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[Trello Board Link]()
 
-## Customize configuration
+### Technologies Used
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- JavaScript
+- HTML
+- CSS/SCSS
+- Vue
+- Mongoose
+- MongoDB
+- render.com
+- Netlify
 
-## Project Setup
+### Routes & Components
 
-```sh
-npm install
+```
+App --> Header 
+App --> Outlet 
+Outlet -- "/" --> Index
+Outlet -- "/places/:id" --> Show
+Outlet -- "/places/create" --> createAction
+Outlet -- "/places/update/:id" --> updateAction
+Outlet -- "/places/delete/:id" --> deleteAction
 ```
 
-### Compile and Hot-Reload for Development
+| Route | Element | Loader | Action | Summary |
+| ----- | ------- | ------ | ------ | ------- |
+| /     | Index   | indexLoader |   | Loads up list of places |         |
+| /gifts/:id | Show | showLoader |  | Loads up an individual place | 
+| /gifts/create | Create|        | createAction | Handles submission of create form for one gift idea | 
+| /gifts/update/:id | Update  |   | updateAction | Handles submission of update form for one gift idea  | 
+| /gifts/delete/:id | Delete  |   | deleteAction | Handles submission of delete form for one gift idea |  
 
-```sh
-npm run dev
-```
+### User Stories
 
-### Compile and Minify for Production
+- As a user, I want to be able to see a list of my Groups/ People.
+- As a user, I want to click on one of the people and it will direct me to the show page where it list gift ideas.
+- As a user, I want to be able to add, edit, and delete gift ideas.
+- As a user, I want to be able to check off gifts that have been purchased or delete gifts.
 
-```sh
-npm run build
-```
+
+### Schema
+
+<img src="" width="600px">
+
+### Wireframes/Mockups
+
+#### Index Page - Desktop and mobile
+
+<img src="" width="600px">
+<img src="" width="600px">
+<img src="" width="300px">
+
+#### Show Page - Desktop and mobile
+
+<img src="" width="600px">
+<img src="" width="600px">
+<img src="" width="300px">
+
+### Weekly Plan
+
+| Week | Goal |
+|-----|------|
+| 3/1 - 3/4 | Finalize project idea and new tech. Work on things needed to get project approved. Set up project and create main and dev branch in GitHub.|
+| 3/5 - 3/11 | Complete Schema with fully deployed backend.|
+| 3/12 - 3/18 | Study new tech and implement into frontend. |
+| 3/19 - 3/25 | Work on styling the index and show page. |
+| 3/26 - 3/31 | Finalize styling and test app to make final adjustments. |
+| 4/1 | Present Capstone! |
+
+### Link to Project
+
+[Deployed Backend Page]()
+[Deployed Frontend Page]()
